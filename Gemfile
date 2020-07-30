@@ -66,3 +66,7 @@ gem 'pry-rails'
 gem 'devise' 
 
 gem 'jquery-rails'
+
+group :production do
+  gem 'rails_12factor'
+end
